@@ -1,7 +1,12 @@
-class AriAri {
-
-static zeroPlusMatch = (string, regEx) => regEx.test(string) ? string.match(regEx) : []
-
+class Arigex {
+  static zeroPlusMatch = (string, regEx) =>
+    regEx.test(string) ? string.match(regEx) : [];
 }
 
-module.exports = AriAri
+class Arri {
+  static forArich = (arr, func) => {};
+
+  static milter = (arr, func) => {};
+}
+
+module.exports = { Arigex, Arri };
